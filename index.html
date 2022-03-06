@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{
+                color:red;
+            }
+            p{
+                display: inline;
+            }
+        </style>
+    </head>
+    <body>        
+        <h1><u>Prblm-1</u></h1>
+        <h2>Shortest and Longest word in a String</h2>
+                <p>Enter the string</p> <input type="text" id="inp"><br>
+        <button onclick="prblm1()">Calculate</button><br>
+        <span id="a"></span><br>
+        <span id="b"></span>
+        <h2><u>Prblm-2</u></h2>
+            <h2>Calculate your Body Mass Index (BMI)!</h2>
+<fieldset>
+Weight (in kilograms): <input type="text" id="weight" /><br/>
+Height (in meters): <input type="text" id="height" /><br/>
+<button onclick="calculate();">Get BMI!</button>
+</fieldset>
+        <p>Your BMI is <span id="score"></span> <br/>
+            Your body type is <span id="type"></span>
+        </p>
+        <h1><u>Prblm-3</u></h1>
+        <h2>
+            Fruit Farm
+        </h2>
+        <div>
+            Rows: <input type="text" id="rows"/>
+            columns: <input type="text" id ="Columns" /> <br/>
+            <button onclick="grow();">Plant Garden</button>
+        </div>
+        <div id="garden" ></div>
+        <h1><u>Prblm-4</u></h1>
+        <fieldset><h2>Currency Conversion </h2><input type="text" id="data" />
+        <select id="from">
+        <option>Indian Rupee</option>
+       <option>US Dollar</option>
+        </select>
+         to
+        <select id ="to">
+        <option> US Dollar </option>
+        <option> Indian Rupee</option>
+        </select>
+        <button onclick="convert()">Calculate</button><span id="answer"></span>
+        </fieldset>
+        <h1><u>Prblm-5</u></h1>
+         <h2>Heads or Tails?</h2>
+        <div>
+            <img src="heads.jfif" id="coin" width="100" height="100" alt="An image was present here"/> <br />
+            <button id="btn">FLIP</button>
+        </div>
+        <p>
+            Heads Total: <span id="num_heads">0</span><br/>
+            Tails Total: <span id="num_tails">0</span>
+        </p>
+                <div id="empty"></div>
+          
+            <h1 ><u>Prblm-6</u></h1>
+            <h2>Pizza Order Form</h2>
+        <fieldset>
+            # of 1/2kg Cakes <input type="text" id="small"/><br/>
+            # of 1kg Cakes <input type="text" id="medium" /><br />
+            # of 2kg Cakes <input type="text" id="large" /><br />
+        Tip:
+        <label><input type="radio" value="10" name="tip" /> 10%</label>
+        <label><input type="radio" value="15" name="tip" checked="checked" /> 15%</label>
+        <label><input type="radio" value="20" name="tip" /> 20%</label> <br />
+        <button id="submit" onclick="calc()">Calculate Order</button>
+        </fieldset>
+        <p>
+        Cost of order: <span id="price"></span>
+        </p>
+           <script src="script.js">
+            </script>
+    </body>
+</html>
